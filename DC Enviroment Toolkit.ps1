@@ -9,6 +9,11 @@ function Show-Menu {
 
     }
 
+    function GatherDCInfo {
+        
+        
+    }
+
 
 
     do 
@@ -18,7 +23,7 @@ function Show-Menu {
     switch ($input) 
     {
         '1'{
-            EnableRecycleBin
+            GatherDCInfo
             }
         'Q' {
                 return      
